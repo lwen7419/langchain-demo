@@ -1,6 +1,6 @@
 from langchain_ollama import ChatOllama
 
-model = ChatOllama(model="qwen3:4b")
+model = ChatOllama(model="qwen2.5:7b")
 
 from langchain_ollama import OllamaEmbeddings
 embeddings = OllamaEmbeddings(model="nomic-embed-text")
